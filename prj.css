@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    box-shadow: 0px 0px 12px black;
+    position: fixed;
+    z-index: 1;
+}
+header button{
+    width: 140px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 20px;
+}
+header button:hover{
+    color: #07689f;
+    cursor:pointer;
+    box-shadow: 0px 0px 15px silver;
+    transition: 50ms;
+
+}
+header img{
+    width: 100px;
+    float: left;
+    margin-top: 5px;
+}
+#d1{
+    width:100%;
+    height: 650px;
+    margin-top: 70px;
+}
+marquee{
+    position: absolute;
+    top: 200px;
+    left: 315px;
+    color:white;
+    text-align: center;
+    font-size: 38px;
+    width: 400px;
+    height: 200px;
+}
+aside{
+    width: 13%;
+    height: 400px;
+    background:white;
+    float: right;
+    margin-top: -4px;
+}
+aside button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-bottom: 1px solid  #407082;
+    border-left: 1px solid  #407082;
+    outline: none;
+    border-radius: 20px;
+}
+aside button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #ff4b5c;
+    transition: 1s;
+}
+main{
+    width: 87%;
+    height: 400px;
+    background:white;
+    margin-top: -4px;
+    float: left;
+}
+main h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+main p{
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 40px;
+    font-family:  'Bebas Neue', sans-serif;;
+}
+main img{
+    width: 100px;
+    margin-top: 20px;
+}
+#id1 div{
+    width: 274px;
+    height: 420px;
+    border: 1px solid silver;
+    font-size: 18px;
+    box-shadow: 1px 1px 12px gray;
+    font-weight: bold;
+    float: left;
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 1000px;
+    clear: both;
+    box-shadow: 0px 0px 40px gray;
+}
+footer div{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-left: 85px;
+    color: red;
+    float: left;
+    
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+footer div a:hover{
+    cursor: pointer;
+    color: red;
+}
